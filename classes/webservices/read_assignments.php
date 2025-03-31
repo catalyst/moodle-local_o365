@@ -28,9 +28,6 @@ namespace local_o365\webservices;
 use assign;
 use context_course;
 use context_module;
-use moodle_exception;
-
-defined('MOODLE_INTERNAL') || die();
 
 use external_api;
 use external_format_value;
@@ -39,7 +36,10 @@ use external_multiple_structure;
 use external_single_structure;
 use external_value;
 use external_warnings;
+use moodle_exception;
 use moodle_url;
+
+defined('MOODLE_INTERNAL') || die();
 
 global $CFG;
 
